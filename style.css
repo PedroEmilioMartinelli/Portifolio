@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html{
+  height: 100%;
+}
+
+
+body {
+  background: radial-gradient(circle at center, #6d526f 0%, #1a181a 100%);
+  background-size: 100% 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header{
+  background: radial-gradient(circle at center, #6d526f 0%, #1a181a 100%);
+  top: 0px;
+  color: #fdfdfd;
+  position: fixed;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-inline: 40px;
+
+}
+
+
+
+.letras {
+  color: #fcfcf9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  margin-top: 50px;
+}
+
+.eu{
+  font-size: 22px ;
+  font-family: 'Fira Sans', sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+  
+  
+}
+
+.dev1 {
+  max-width: 600px;
+  font-size: 100px;
+  /* font-family: 'Fira Sans', sans-serif; */
+  font-family: 'Angkor', cursive;
+
+}
+
+
+.trabalho {
+  font-size: 30px;
+  width: 500px;
+  margin-top: 30px;
+  
+}
+
+
+
+.lk img{
+  cursor: pointer;
+  position: absolute;
+  right: 60px;
+  bottom: 30px;
+  height: 40px;
+  width: fit-content;
+}
+
+.git img{
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  bottom: 30px;
+  height: 40px;
+  width: fit-content;
+}
+
+
+
+
+
+
+
+.container{
+  position:relative;
+
+}
