@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+html {
   background: radial-gradient(circle at center, #6d526f 0%, #1a181a 100%);
   background-size: 100% 100%;
   height: 100%;
@@ -20,11 +21,12 @@ body {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
+  font-size: 16px;
 }
 
-header {
+.NavBar {
   background: radial-gradient(circle at center, #6d526f 0%, #1a181a 100%);
-  top: 0px;
+  top: 0;
   color: #fdfdfd;
   position: fixed;
   padding: 1px;
@@ -35,18 +37,23 @@ header {
   padding-inline: 40px;
 }
 
-.letras {
+.hero {
   color: #fcfcf9;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
-  margin-top: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .eu {
-  font-size: 22px;
+  font-size: 1.25rem;
   font-family: "Fira Sans", sans-serif;
   margin-left: 20px;
   margin-top: 20px;
@@ -60,16 +67,23 @@ header {
   line-height: 120px;
 }
 
-.lk img,
-.git img {
+.git img,
+.lk img {
   height: 80px;
   width: 80px;
-  margin: 0 10px;
-  cursor: pointer;
 }
-*/ .container {
+
+/* .container {
   display: flex;
+  flex-direction: column;
   align-self: center;
   justify-content: center;
   align-items: center;
+} */
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaço entre os ícones */
+  margin-top: 20px; /* Distância da palavra "Software" */
 }
