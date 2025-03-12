@@ -2,22 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
-html{
-  height: 100%;
-}
-
 
 body {
   background: radial-gradient(circle at center, #6d526f 0%, #1a181a 100%);
   background-size: 100% 100%;
-    height: 100%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  height: 100%;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 
-header{
+header {
   background: radial-gradient(circle at center, #6d526f 0%, #1a181a 100%);
   top: 0px;
   color: #fdfdfd;
@@ -28,10 +33,7 @@ header{
   justify-content: space-between;
   width: 100%;
   padding-inline: 40px;
-
 }
-
-
 
 .letras {
   color: #fcfcf9;
@@ -39,62 +41,35 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  height: 100%;
   margin-top: 50px;
 }
 
-.eu{
-  font-size: 22px ;
-  font-family: 'Fira Sans', sans-serif;
+.eu {
+  font-size: 22px;
+  font-family: "Fira Sans", sans-serif;
   margin-left: 20px;
   margin-top: 20px;
-  
-  
+  align-items: center;
 }
 
 .dev1 {
-  max-width: 600px;
+  max-width: 800px;
   font-size: 100px;
-  /* font-family: 'Fira Sans', sans-serif; */
-  font-family: 'Angkor', cursive;
-
+  font-family: "Angkor", cursive;
+  line-height: 120px;
 }
 
-
-.trabalho {
-  font-size: 30px;
-  width: 500px;
-  margin-top: 30px;
-  
-}
-
-
-
-.lk img{
+.lk img,
+.git img {
+  height: 80px;
+  width: 80px;
+  margin: 0 10px;
   cursor: pointer;
-  position: absolute;
-  right: 60px;
-  bottom: 30px;
-  height: 40px;
-  width: fit-content;
 }
-
-.git img{
-  cursor: pointer;
-  position: absolute;
-  right: 5px;
-  bottom: 30px;
-  height: 40px;
-  width: fit-content;
-}
-
-
-
-
-
-
-
-.container{
-  position:relative;
-
+*/ .container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
 }
