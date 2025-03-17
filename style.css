@@ -116,3 +116,62 @@ html {
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .NavBar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    padding: 20px;
+  }
+
+  .eu {
+    font-size: 1.2rem;
+  }
+
+  .dev1 {
+    font-size: 1.5rem;
+  }
+
+  .icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .SKlogos img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .NavBar {
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    padding: 15px;
+  }
+
+  .eu {
+    font-size: 1rem;
+  }
+
+  .dev1 {
+    font-size: 1.2rem;
+  }
+
+  .icons img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .SKlogos img {
+    width: 25px;
+    height: 25px;
+  }
+}
